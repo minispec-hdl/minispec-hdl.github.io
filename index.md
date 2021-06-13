@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+## Minispec Hardware Description Language 
 
-You can use the [editor on GitHub](https://github.com/minispec-hdl/minispec-hdl.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Minispec is a simple but full-featured Hardware Description Language (HDL). It is inspired by Bluespec, and the current implementation heavily leverages the Bluespec compiler, e.g., for type checking and to produce Verilog code. However, Minispec has a minimalistic feature set that seeks to reduce its learning curve.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Minispec is open-source and available at https://github.com/minispec-hdl/minispec. The toolchain provides a complete design environment, including an integrated compiler, synthesis tool, and Jupyter-based interactive notebooks. This makes Minispec useful for teaching purposes. However, Minispec can also be used with other synthesis tools.
 
-### Markdown
+Minispec was originally designed by Daniel Sanchez for use in MIT's [6.004](https://6004.mit.edu).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Resources
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/minispec-hdl/minispec-hdl.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+* Minispec tutorials
+  * Combinational logic [[interactive]](https://github.com/minispec-hdl/minispec/tutorials/Combinational.ipynb) [[pdf]](minispec_combinational.pdf) [[pdf, executed]](minispec_combinational_executed.pdf)
+  * Sequential logic [[interactive]](https://github.com/minispec-hdl/minispec/tutorials/Sequential.ipynb) [[pdf]](minispec_sequential.pdf) [[pdf, executed]](minispec_sequential_executed.pdf)
+  * These tutorials provide a first introduction to Minispec. They are interactive Jupyter notebooks, but we also provide PDF printouts for offline use.
+* [Minispec reference](minispec_reference.pdf)
+  * This is the primary reference for the Minispec language, covering its syntax and semantics in full. It is more more detailed than the Minispec tutorials, and is useful mainly to answer particular questions on syntax and to learn the language in depth.
