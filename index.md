@@ -2,7 +2,7 @@
 
 Minispec is a simple but full-featured Hardware Description Language (HDL). It is inspired by Bluespec, and the current implementation heavily leverages the Bluespec compiler, e.g., for type checking and to produce Verilog code. However, Minispec has a minimalistic feature set that seeks to reduce its learning curve.
 
-Minispec is open-source and available at https://github.com/minispec-hdl/minispec. The toolchain provides a complete design environment, including an integrated compiler, synthesis tool, and Jupyter-based interactive notebooks. This makes Minispec useful for teaching purposes. However, Minispec can also be used with other synthesis tools.
+Minispec is open-source and available on [github](https://github.com/minispec-hdl/minispec). The toolchain provides a complete design environment, including an integrated compiler, synthesis tool, and Jupyter-based interactive notebooks. This makes Minispec useful for teaching purposes. However, Minispec can also be used with other synthesis tools.
 
 Minispec was originally designed by Daniel Sanchez for use in MIT's [6.004](https://6004.mit.edu).
 
