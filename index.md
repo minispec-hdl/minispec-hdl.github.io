@@ -9,8 +9,8 @@ Minispec was originally designed by Daniel Sanchez for use in MIT's [6.004](http
 ### Resources
 
 * Minispec tutorials
-  * Combinational logic [[interactive]](https://github.com/minispec-hdl/minispec-tutorials/blob/main/Combinational.ipynb) [[pdf]](minispec_combinational.pdf) [[pdf, executed]](minispec_combinational_executed.pdf)
-  * Sequential logic [[interactive]](https://github.com/minispec-hdl/minispec-tutorials/blob/main/Sequential.ipynb) [[pdf]](minispec_sequential.pdf) [[pdf, executed]](minispec_sequential_executed.pdf)
+  * Combinational logic [[interactive]](https://mybinder.org/v2/gh/minispec-hdl/minispec-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fminispec-hdl%252Fminispec-tutorials%26urlpath%3Dtree%252Fminispec-tutorials%252FCombinational.ipynb%26branch%3Dmain) [[pdf]](minispec_combinational.pdf) [[pdf, executed]](minispec_combinational_executed.pdf)
+  * Sequential logic [[interactive]](https://mybinder.org/v2/gh/minispec-hdl/minispec-binder/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Fminispec-hdl%252Fminispec-tutorials%26urlpath%3Dtree%252Fminispec-tutorials%252FSequential.ipynb%26branch%3Dmain) [[pdf]](minispec_sequential.pdf) [[pdf, executed]](minispec_sequential_executed.pdf)
   * These tutorials provide a first introduction to Minispec. They are interactive Jupyter notebooks, but we also provide PDF printouts for offline use.
 * [Minispec reference](minispec_reference.pdf)
   * This is the primary reference for the Minispec language, covering its syntax and semantics in full. It is more more detailed than the Minispec tutorials, and is useful mainly to answer particular questions on syntax and to learn the language in depth.
